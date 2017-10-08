@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">com.android.chinema</string>
+    <string name="countFilms">Кількість фільмів: </string>
+    <string name="dateFilm">Дата: </string>
+    <string name="DurationView">Тривалість: </string>
+    <string name="Genre">Жанри: </string>
+    <string name="opne_web">Open web</string>
+</resources>

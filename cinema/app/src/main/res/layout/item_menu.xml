@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/manu_icon"
+        android:paddingLeft="50px"
+        android:maxWidth="150px"
+        android:minHeight="150px"
+        android:src="@android:drawable/btn_minus"/>
+
+    <TextView
+        android:layout_toRightOf="@+id/manu_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_Menu"
+        android:gravity="center"
+        android:text="Про нас"
+        android:textSize="40dp"/>
+</RelativeLayout>
